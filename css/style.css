@@ -5,13 +5,7 @@
     box-sizing: border-box;
     font-family: arial;
 }
-ae{
-  background: url(../img/Pics/O3.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
-}
+
 .content-all{
     width: 100%;
     display: -webkit-box;
@@ -22,8 +16,8 @@ ae{
 }
 
 .content-img{
-    width: 500px;
-    height: 500px;
+    width: 1180px;
+    height: 280px;
     margin: auto;
     margin-top: 100px;
     position: relative;
@@ -38,8 +32,8 @@ ae{
 }
 
 .content-1{
-    width: 1000px;
-    height: 1000px;
+  width: 800px;
+  height: 1200px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -51,8 +45,8 @@ ae{
 }
 
 .content-2{
-    width: 1000px;
-    height: 1000px;
+    width: 800px;
+    height: 1200px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -64,8 +58,8 @@ ae{
 }
 
 .content-3{
-    width: 1000px;
-    height: 1000px;
+    width: 800px;
+    height: 1200px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -80,8 +74,8 @@ ae{
 }
 
 .content-4{
-    width: 1000px;
-    height: 1000px;
+    width: 800px;
+    height: 1200px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -94,25 +88,29 @@ ae{
 }
 
 .content-img:hover .content-1{
-    width: 222%;
+    width: 150%;
     -webkit-transition: all 900ms;
     transition: all 900ms;
 }
 
 .content-img:hover .content-2{
-    width: 222%;
+    width: 150%;
     -webkit-transition: all 300ms;
     transition: all 300ms;
 }
-
+Ei{
+  width: 50px;
+  height: 50px;
+  float: right;
+}
 .content-img:hover .content-3{
-    width: 222%;
+    width: 150%;
     -webkit-transition: all 500ms;
     transition: all 500ms;
 }
 
 .content-img:hover .content-4{
-    width: 222%;
+    width: 150%;
     -webkit-transition: all 700ms;
     transition: all 700ms;
 }
@@ -128,16 +126,16 @@ ae{
 .content-txt{
     position: absolute;
     top: 0;
-    width: 400px;
-    padding: 10px;
+    width: 270px;
+    padding: 5px;
     z-index: 10;
     color: white;
-    text-align: center;
-    margin-top: 100px;
+    text-align: justify;
+    margin-top: 50px;
 }
 
 .content-txt h2{
-    font-size: 30px;
+    font-size: 25px;
     opacity: 0;
     -webkit-transform: scale(0.2);
     transform: scale(0.2);
@@ -146,8 +144,8 @@ ae{
 }
 
 .content-txt p{
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 15px;
+    margin-top: 5px;
     opacity: 0;
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
@@ -178,8 +176,8 @@ ae{
 justify-content: center;
 }
 
-F {
-  background: url(../img/Pics/O1.png);
+body {
+  background: url(../img/Pics/O3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -187,22 +185,6 @@ F {
   background-color: #000000;
   font-family: sans-serif;
   margin: 0 auto;
-}
-#contenido{
-  background: url(../img/Pics/O2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
-}
-body {
-  background-image: url(../img/Pics/F.png);
-  background-size: contain;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000000;
-    font-family: sans-serif;
-    margin: 0 auto;
 }
 
 p {
@@ -212,6 +194,30 @@ p {
   padding: 3%;
   text-indent: 2%;
   text-align: justify;
+}
+
+.Menus p {
+  text-align: center;
+  float: none;
+  font-weight: bold;
+  color: #FF0400;
+}
+
+.j {
+  color: #FFF;
+  font-size: 200%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: center;
+}
+.j p1 {
+  color: #FFF;
+  font-size: 120%;
+  line-height: 105%;
+  float:inherit;
+  padding: inherit;
+  text-align: center;
 }
 
 h3 {
@@ -246,11 +252,7 @@ a {
 a:hover {
   color: #000000;
 }
-Ei{
-  width: 50px;
-  height: 50px;
-  float: right;
-}
+
 pm {
   color: #FFF;
   font-size: 120%;
@@ -317,16 +319,11 @@ header {
 }
 
 header #logo img{
-  margin: 10px;
+  margin: 5px;
   float: left;
-  width: 80px;
+  width: 75px;
 }
 
-header #logo img{
-  margin: 20px;
-  float: left;
-  width: 100px;
-}
 /* NAVIGATION*/
 nav {
   float: center;
@@ -341,6 +338,7 @@ nav {
 a img {
   margin-left: auto;
   margin-right: auto;
+  max-width: 90%;
 }
 nav ul li {
   font-size: 100%;
@@ -369,7 +367,7 @@ a:hover {
   color: #FF0400;
 }
 
-.FPI  img {
+.FPI img {
   display: block;
   max-width: 100%;
   float: none;
@@ -426,10 +424,18 @@ a:hover {
 }
 
 .Menus img {
-  width: 1080px;
-  height:520px;
-  float: none;
-  padding: 10px;
+  width: 550px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Menus{
+  float: left;
+  padding: 1%;
+}
+.Menus p {
+color: #ffff;
 }
 .Menus img:hover {
 color: #000000;
@@ -495,8 +501,9 @@ font-weight: bold;
 }
 
 footer {
-  background-color: red;
-  width: 1500px;
+  background: #FF1919;
+  width: 100%;
+  overflow: auto;
 }
 .icon-text {
   width: 100%;
