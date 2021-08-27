@@ -246,7 +246,11 @@ a {
 a:hover {
   color: #000000;
 }
-
+Ei{
+  width: 50px;
+  height: 50px;
+  float: right;
+}
 pm {
   color: #FFF;
   font-size: 120%;
