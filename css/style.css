@@ -5,7 +5,32 @@
     box-sizing: border-box;
     font-family: arial;
 }
-
+F {
+  background: url(../img/Pics/O1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-color: #000000;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+#contenido{
+  background: url(../img/Pics/O2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+body {
+  background-image: url(../img/Pics/F.png);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #000000;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
 .content-all{
     width: 100%;
     display: -webkit-box;
@@ -176,16 +201,6 @@ Ei{
 justify-content: center;
 }
 
-body {
-  background: url(../img/Pics/O3.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
-  background-color: #000000;
-  font-family: sans-serif;
-  margin: 0 auto;
-}
 
 p {
   color: #FFF;
