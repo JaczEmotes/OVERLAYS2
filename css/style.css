@@ -361,7 +361,13 @@ nav ul li {
   float: left;
   padding: 10px;
 }
-
+.slider1 {
+  width: 550px;
+  max-width: 550px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 0 auto;
+}
 nav ul li a {
   color: #CF0000;
 }
@@ -446,8 +452,13 @@ a:hover {
 }
 
 .Menus{
+  width: 550px;
   float: left;
-  padding: 1%;
+  padding: 0.5% ;
+  max-width: 550px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 0 auto;
 }
 .Menus p {
 color: #ffff;
